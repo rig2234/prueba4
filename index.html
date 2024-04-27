@@ -1,11 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playstation</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0; /* Color de fondo de la página */
+    }
+    .header {
+        background-color: black; /* Azul oscuro */
+        width: 100%;
+        padding: 20px;
+        color: white;
+        text-align: center;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section {
+        width: 80%;
+        margin-top: 20px;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        
+    }
+    .section-header {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .games {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .game {
+        width: 30%;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        text-align: center;
+        border: 5px solid black;
+    }
+    .game:hover {
+        transform: translateY(-5px);
+    }
+    .game a img {
+        width: 70%;
+        height: auto;
+    }
+    p {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    h2{
+        background-color: black;
+        color: #f0f0f0;
+        font-size: 25px;
+        height: 50px;
+    }
+    body{
+        background-image: url('https://imgur.com/FoLRStB.png');
+    }
+</style>
 </head>
 <body>
-    rigoberto
+    <div class="header">
+        <h1>Playstation</h1>
+    </div>
+    <div class="container">
+        <div class="section">
+            <h2 class="section-header">Nuevos Lanzamientos</h2>
+            <div class="games">
+                <div class="game">
+                    <a href="#"><img src="https://imgur.com/1OzPQP2.png" alt="Nuevo lanzamiento 1"></a>
+                    <p>Juego 1</p>
+                </div>
+                <div class="game">
+                    <a href="#"><img src="https://imgur.com/BRfxQQi.png" alt="Nuevo lanzamiento 2"></a>
+                    <p>Juego 2</p>
+                </div>
+                <div class="game">
+                    <a href="#"><img src="https://imgur.com/1OzPQP2.png" alt="Nuevo lanzamiento 3"></a>
+                    <p>Juego 3</p>
+                </div>
+                <div class="game">
+                    <a href="#"><img src="https://imgur.com/BRfxQQi.png" alt="Nuevo lanzamiento 4"></a>
+                    <p>Juego 4</p>
+                </div>
+                <div class="game">
+                    <a href="#"><img src="https://imgur.com/1OzPQP2.png" alt="Nuevo lanzamiento 5"></a>
+                    <p>Juego 5</p>
+                </div>
+                <div class="game">
+                    <a href="#"><img src="https://imgur.com/BRfxQQi.png" alt="Nuevo lanzamiento 6"></a>
+                    <p>Juego 6</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2 class="section-header">Juegos Clásicos</h2>
+            <div class="games">
+                <div class="game">
+                    <a href="#"><img src="https://imgur.com/BRfxQQi.png" alt="Juego clásico 1"></a>
+                    <p>Juego Clásico 1</p>
+                </div>
+                <div class="game">
+                    <a href="#"><img src="https://imgur.com/1OzPQP2.png" alt="Juego clásico 2"></a>
+                    <p>Juego Clásico 2</p>
+                </div>
+                <div class="game">
+                    <a href="#"><img src="https://imgur.com/BRfxQQi.png" alt="Juego clásico 3"></a>
+                    <p>Juego Clásico 3</p>
+                </div>
+                <div class="game">
+                    <a href="#"><img src="https://imgur.com/1OzPQP2.png" alt="Juego clásico 4"></a>
+                    <p>Juego Clásico 4</p>
+                </div>
+                <div class="game">
+                    <a href="#"><img src="https://imgur.com/BRfxQQi.png" alt="Juego clásico 5"></a>
+                    <p>Juego Clásico 5</p>
+                </div>
+                <div class="game">
+                    <a href="#"><img src="https://imgur.com/1OzPQP2.png" alt="Juego clásico 6"></a>
+                    <p>Juego Clásico 6</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
